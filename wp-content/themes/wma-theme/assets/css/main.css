@@ -1,0 +1,364 @@
+@charset "UTF-8";
+/*
+* Theme Name:    wma-theme
+* Theme:         Custom
+* Description:   Theme for Warped Mind Art
+* Author:        Stefan Eriksson Roskvist
+* Text Domain:   wma-theme
+*/
+/* media queries */
+/* om sk├ñrmen blir mindre ├ñn 399px anv├ñnds denna query */
+@media screen and (max-width: 399px) {
+  .wmalogo img {
+    width: 100%; }
+
+  .container {
+    width: 100%;
+    height: 100%; }
+
+  .row {
+    width: 100%;
+    height: 100%; }
+
+  .slideShow {
+    display: none; }
+
+  .wma-mainmenu {
+    display: none; }
+
+  .wma-smallmenu {
+    display: inline; } }
+/* om sk├ñrmen blir mindre ├ñn 400px anv├ñnds denna query */
+@media screen and (min-width: 400px) {
+  .wmalogo img {
+    width: 100%; }
+
+  .container {
+    width: 100%;
+    height: 100%; }
+
+  .row {
+    width: 100%;
+    height: 100%; }
+
+  .slideShow {
+    display: none; }
+
+  .wma-mainmenu {
+    display: none; }
+
+  .wma-smallmenu {
+    display: inline; } }
+@media screen and (min-width: 500px) {
+  .wmalogo img {
+    width: 100%; }
+
+  .container {
+    width: 100%;
+    height: 100%; }
+
+  .row {
+    width: 100%;
+    height: 100%; }
+
+  .slideShow {
+    display: none; }
+
+  .wma-mainmenu {
+    display: none; }
+
+  .wma-smallmenu {
+    display: inline; } }
+/* om sk├ñrmen ├ñr minst 600px anv├ñnds denna query */
+@media screen and (min-width: 600px) {
+  .wmalogo img {
+    width: 100%; }
+
+  .container {
+    width: 100%;
+    height: 100%; }
+
+  .row {
+    width: 100%;
+    height: 100%; }
+
+  .wma-mainmenu {
+    display: none; }
+
+  .wma-smallmenu {
+    display: inline; } }
+/* om sk├ñrmen ├ñr minst 800px anv├ñnds denna query */
+@media screen and (min-width: 800px) {
+  .wmalogo img {
+    width: 100%; }
+
+  .container {
+    width: 100%;
+    height: 100%; }
+
+  .row {
+    width: 100%;
+    height: 100%; }
+
+  .wma-mainmenu {
+    display: inline; }
+
+  .wma-smallmenu {
+    display: none; } }
+body {
+  background-color: #565656; }
+
+h4 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: #000000 !important; }
+
+h2 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  color: #000000 !important; }
+
+/* styr enbart utseendet p├Ñ bakgrunden */
+header {
+  height: 70px;
+  background-color: #565656;
+  margin-bottom: 10px; }
+
+/* best├ñmmer utseendet p├Ñ menyn */
+header .wma-header {
+  background-color: #c2c2c2;
+  width: 80%;
+  height: 70px;
+  border: 1px solid;
+  margin: auto; }
+
+/* best├ñmmer utseende p├Ñ varje l├ñnk */
+header .wma-header ul {
+  text-align: center; }
+
+header .wma-header ul li {
+  display: inline-block; }
+
+header .wma-header ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px; }
+
+/* tar bort punkter framf├Âr l├ñnkar */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+/* slider */
+@keyframes layer2Anim {
+  0% {
+    opacity: 0; }
+  17% {
+    opacity: 0; }
+  33% {
+    opacity: 1; }
+  50% {
+    opacity: 1; }
+  67% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@keyframes layer3Anim {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  67% {
+    opacity: 1; }
+  83% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+.slideShow {
+  position: relative;
+  height: 250px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px; }
+
+.placeHolder {
+  width: 100%;
+  visibility: hidden; }
+
+.wmalogo {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-repeat: no-repeat; }
+
+.layer1 {
+  background-image: url("/wp-content/themes/wma-theme/img/img-slide1.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.layer2 {
+  background-image: url("/wp-content/themes/wma-theme/img/img-slide2.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: layer2Anim 10s infinite; }
+
+.layer3 {
+  background-image: url("/wp-content/themes/wma-theme/img/img-slide3.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: layer3Anim 10s infinite; }
+
+.slideOverlay {
+  background-image: url("../../img/overlay.png");
+  background-attachment: fixed;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0; }
+
+/* style f├Âr v├ñlkomst rutan */
+h4.toptext {
+  margin-left: 10px; }
+
+.wma-welcome {
+  background-color: #c2c2c2;
+  width: 80%;
+  border: 1px solid;
+  margin: auto;
+  margin-bottom: 30px; }
+
+/* style f├Âr v├ñlkomsttext */
+.wma-welcome-text {
+  padding-left: 10px;
+  padding-top: 0;
+  padding-bottom: 10px;
+  padding-right: 10px; }
+
+/* style f├Âr urval */
+.wma-firstlook {
+  background-color: #c2c2c2;
+  width: 80%;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: #000000 !important;
+  margin: auto;
+  margin-bottom: 30px;
+  padding-top: 10px; }
+
+/* style f├Âr grid */
+.firstlook {
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  grid-gap: 30px; }
+
+.firstlook {
+  max-width: 960px;
+  margin: 0 auto 30px; }
+
+.urval {
+  position: relative; }
+
+.firstlook-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover; }
+
+.firstlook-title {
+  bottom: 0;
+  width: 100%;
+  padding: 10px; }
+
+/* style f├Âr l├ñnkar */
+a:link {
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  color: #000000 !important;
+  text-decoration: none; }
+
+/* bes├Âkt l├ñnk */
+a:visited {
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  color: #000000 !important;
+  text-decoration: none; }
+
+/* pil p├Ñ l├ñnk */
+a:hover {
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  color: #000000 !important;
+  text-decoration: none; }
+
+/* vald l├ñnk */
+a:active {
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  color: #000000 !important;
+  text-decoration: none; }
+
+/* All CSS till footern finns nedan */
+footer {
+  height: 100%;
+  width: 100%;
+  background-color: #565656; }
+
+/* ├ñndrar typsnitt i rutan nyhetsbrev */
+footer label {
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  color: #000000 !important;
+  text-decoration: none; }
+
+/* text ovanf├Âr l├ñnkarna */
+.widget-title {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: #000000 !important; }
+
+.container {
+  background-color: #c2c2c2;
+  width: 80%;
+  border: 1px solid;
+  height: 100%; }
+
+.site-info {
+  font-family: 'Dosis', sans-serif;
+  font-size: 12px;
+  color: #000000 !important;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  border-top: 1px solid #000000;
+  padding-top: 5px; }
+
+/* ├ñndrar typsnitt p├Ñ knappen */
+input.mpam-submit.button {
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  color: #000000 !important; }
+
+/*# sourceMappingURL=main.css.map */

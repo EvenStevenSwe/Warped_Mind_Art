@@ -1,0 +1,22 @@
+header {
+  height:100px;
+  background-color:#565656;
+  border-bottom:1px solid #d5d3d3
+}
+
+header .main-nav ul li{
+  display:block;
+  float: left;
+  height:50px;
+  background-color: #c2c2c2;
+  margin-top: 15px;
+}
+
+header .main-nav ul li a{
+  text-decoration:none;
+  color:#000;
+  display:block;
+  height:130px;
+  line-height:30px;
+  padding:0 15px;
+}
