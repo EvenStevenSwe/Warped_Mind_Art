@@ -3,7 +3,6 @@
 //Function that stores all css styles
 function load_styles() {
 	wp_enqueue_style('style.css', get_template_directory_uri() .'/style.css');
-	wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 }
 
 function font_awesome() {
@@ -30,9 +29,16 @@ function bootstrapstarter_enqueue_scripts() {
 
 //Function that stores all scripts
 function load_scripts() {
-    //wp_enqueue_script('jquery');
-    //wp_enqueue_script('showhide.js', get_template_directory_uri() . '/assets/js/showhide.js', array('jquery'), '1.0.0', false);
+    wp_enqueue_script('jquery');
+    wp_enqueue_script('showhide.js', get_template_directory_uri() . '/assets/js/showhide.js', array('jquery'), '1.0.0', false);
+	wp_enqueue_script('jquery.js', get_template_directory_uri() . '/assets/js/jQuery.js', array('jquery'), false);
+
 }
+
+//Function to add mobile menu
+//function wma_mobile_menu() {
+//	register_nav_menu( 'primary-mobile', __( 'Primary Mobile Menu', 'wma-theme' ) );
+//}
 
 //Function for custom widgets with footer & header menu
 function wma_widgets_init() {
@@ -110,6 +116,9 @@ add_action('wp_enqueue_scripts', 'load_scripts');
 
 //Executes and adds the custom menu
 add_action( 'init', 'wpb_custom_main_menu' );
+
+//Executes and adds the mobile menu
+//add_action( 'after_setup_theme', 'wma_mobile_menu' );
 
 //Add custom widgets
 add_action( 'widgets_init', 'wma_widgets_init');

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: words
+Template Name: slayer
 */
 get_header();?>
 

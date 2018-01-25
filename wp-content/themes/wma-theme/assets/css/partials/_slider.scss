@@ -1,0 +1,74 @@
+/* style för slider */
+
+@keyframes layer2Anim {
+  0%{opacity:0;}
+  17%{opacity:0;}
+  33%{opacity:1;}
+  50%{opacity:1;}
+  67%{opacity:0;}
+  100%{opacity:0;}
+}
+@keyframes layer3Anim {
+  0%{opacity:0;}
+  50%{opacity:0;}
+  67%{opacity:1;}
+  83%{opacity:1;}
+  100%{opacity:0;}
+}
+.slideShow {
+  position: relative;
+  height: 250px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.placeHolder {
+  width: 80%;
+  visibility: hidden;
+}
+
+.wmalogo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-repeat: no-repeat;
+}
+
+.wmalogo img {
+  width: 100%;
+  height: 100%;
+}
+
+.layer1 {
+  background-image: url("/wp-content/themes/wma-theme/img/img-slide1.jpg");
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.layer2 {
+  background-image: url("/wp-content/themes/wma-theme/img/img-slide2.jpg");
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: layer2Anim 10s infinite;
+}
+.layer3 {
+  background-image: url("/wp-content/themes/wma-theme/img/img-slide3.jpg");
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: layer3Anim 10s infinite;
+}

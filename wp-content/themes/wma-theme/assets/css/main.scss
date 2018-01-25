@@ -6,63 +6,47 @@
 * Text Domain:   wma-theme
 */
 
+@import "partials/mobilemenu";
+//@import "partials/slider";
+
 /* media queries */
 
-/* om skärmen blir mindre än 399px används denna query */
+/* om skärmen blir mindre än 399px på bredden används denna query */
 
-@media screen and (max-width: 399px) {
-
+@media only screen and (max-width: 399px) {
   .wmalogo img { width: 100%; }
-  .container { width: 100%; height: 100%; }
-  .row { width: 100%; height: 100%; }
-  //.slideShow { display: none; }
-  //.wma-mainmenu { display: none; }
-  //.wma-smallmenu { display: inline; }
+  .wma-mobilemenu { display: inline; }
+  .wma-mainmenu { display: none; }
+  .slideShow { display: none; }
 }
 
-/* om skärmen blir mindre än 400px används denna query */
+/* om skärmen är minst 400px på bredden används denna query */
 
-@media screen and (min-width: 400px) {
-
+@media only screen and (min-width: 400px) {
   .wmalogo img { width: 100%; }
-  .container { width: 100%; height: 100%; }
-  .row { width: 100%; height: 100%; }
-  //.slideShow { display: none; }
-  //.wma-mainmenu { display: none; }
-  //.wma-smallmenu { display: inline; }
+  .wma-mobilemenu { display: inline; }
+  .wma-mainmenu { display: none; }
+  .slideShow { display: none; }
 }
 
-@media screen and (min-width: 500px) {
+/* om skärmen är minst 600px på bredden används denna query */
 
+@media only screen and (min-width: 600px) {
   .wmalogo img { width: 100%; }
-  .container { width: 100%; height: 100%; }
-  .row { width: 100%; height: 100%; }
-  //.slideShow { display: none; }
-  //.wma-mainmenu { display: none; }
-  //.wma-smallmenu { display: inline; }
+  .wma-mobilemenu { display: inline; }
+  .wma-mainmenu { display: none; }
 }
 
-/* om skärmen är minst 600px används denna query */
+/* om skärmen är minst 800px på bredden används denna query */
 
-@media screen and (min-width: 600px) {
-
+@media only screen and (min-width: 800px) {
   .wmalogo img { width: 100%; }
-  .container { width: 100%; height: 100%; }
-  .row { width: 100%; height: 100%; }
-  //.wma-mainmenu { display: none; }
-  //.wma-smallmenu { display: inline; }
+  .wma-mobilemenu { display: none; }
+  .wma-mainmenu { display: inline; }
+  .slideShow { display: inline-block; }
 }
 
-/* om skärmen är minst 800px används denna query */
-
-@media screen and (min-width: 800px) {
-
-  .wmalogo img { width: 100%; }
-  .container { width: 100%; height: 100%; }
-  .row { width: 100%; height: 100%; }
-  //.wma-mainmenu { display: inline; }
-  //.wma-smallmenu { display: none; }
-}
+/* bakgrundsfärger och typsnitt med storlekar */
 
 body {
   background-color: #565656;
@@ -81,7 +65,7 @@ h2 {
   color: #000000 !important;
 }
 
-/* styr enbart utseendet på bakgrunden */
+/* styr utseendet på bakgrunden */
 
 header {
   height:70px;
@@ -123,7 +107,7 @@ ul {
   margin: 0;
 }
 
-/* slider */
+/* style för slider */
 
 @keyframes layer2Anim {
   0%{opacity:0;}
@@ -142,20 +126,19 @@ ul {
 }
 .slideShow {
   position: relative;
-  height: 250px;
+  height: 220px;
   width: 80%;
   margin: auto;
   margin-bottom: 30px;
 }
 .placeHolder {
   width: 100%;
+  height: 100%;
   visibility: hidden;
 }
 
 .wmalogo {
   position: absolute;
-  width: 50%;
-  height: 100%;
   top: 0;
   left: 0;
   z-index: 1;
@@ -194,17 +177,8 @@ ul {
   background-repeat: no-repeat;
   animation: layer3Anim 10s infinite;
 }
-.slideOverlay {
-  background-image: url("../../img/overlay.png");
-  background-attachment: fixed;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
 
-/* style för välkomst rutan */
+/* style för välkomstrutan */
 
 h4.toptext {
   margin-left: 10px;
@@ -245,9 +219,9 @@ h4.toptext {
 
 .firstlook {
   display: grid;
-  grid-template-columns: 50% 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 30px;
-}
+  }
 
 .firstlook {
   max-width: 960px;
@@ -256,9 +230,11 @@ h4.toptext {
 
 .urval {
   position: relative;
+  width: 80%;
+  margin: 10px;
 }
 
-.firstlook-img {
+.firstlook img {
   height: 200px;
   width: 100%;
   object-fit: cover;
@@ -271,11 +247,18 @@ h4.toptext {
 
 }
 
+/* utseende på sidor om varje tavla */
+
+.artinfo {
+
+}
+
 /* style för länkar */
 
 a:link {
   font-family: 'Dosis', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
   color: #000000 !important;
   text-decoration: none;
 }
@@ -321,7 +304,7 @@ footer label {
   text-decoration: none;
 }
 
-/* text ovanför länkarna */
+/* utseende på text ovanför länkarna */
 
 .widget-title {
   font-family: 'Dosis', sans-serif;
@@ -330,6 +313,8 @@ footer label {
   color: #000000 !important;
 }
 
+/* bakgrunden på footern */
+
 .container {
   background-color: #c2c2c2;
   width: 80%;
@@ -337,9 +322,11 @@ footer label {
   height: 100%;
 }
 
+/* Copyrighttext */
+
 .site-info {
   font-family: 'Dosis', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: #000000 !important;
   text-decoration: none;
   margin-top: 5px;

@@ -9,10 +9,9 @@
 </head>
 <body>
 
-<div class="wma-welcome">
-	<h4 class="toptext">Urval från Galleriet</h4>
-		<div class="wma-firstlook">
-			<section class="firstlook">
+        <div class="wma-firstlook">
+	      <h4 class="toptext">Urval från Galleriet</h4>
+		   <section class="firstlook">
 			<div class="urval">
 				<img class="firstlook-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/dreamsofsummer.jpg"/>
 				<h2 class="firstlook-title"><a href="<?php echo get_page_link( get_page_by_title( Dreams )->ID ); ?>">Dreams of Summer</a></h2>
@@ -29,8 +28,7 @@
 				<img class="firstlook-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/sverige.jpg"/>
 				<h2 class="firstlook-title"><a href="<?php echo get_page_link( get_page_by_title( Sverige )->ID ); ?>">Sverige</a></h2>
 			</div>
-
 			</section> <!-- firstlook -->
 		</div> <!-- wma-firstlook -->
-</div> <!-- wma-welcome -->
+
 </body>

@@ -1,0 +1,35 @@
+.wma-mobilemenu .navbar-header {
+  width: 100%;
+  background-color: #c2c2c2;
+}
+
+
+.navbar.navbar-inverse.navbar-static.top {
+  margin-bottom: 5px;
+}
+
+.navbar, .navbar-inverse {
+  border-radius: 0;
+  border: none;
+  min-height: 70px;
+  width: 100%;
+  background-color: #c2c2c2;
+  margin-bottom: 5px;
+}
+
+.nav li {
+  display: inline;
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #c2c2c2;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+  background-color: #c2c2c2;
+  transition: 0.7s all linear;
+  height: 100%;
+}
