@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be3dff23-95a0-4d4d-a88f-c662581f5504" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/dreamsofsummer.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/.sass-cache/b46bf58b3e6fb216ad9f79854d69480aa4a11089/main.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/wma-theme/.sass-cache/b46bf58b3e6fb216ad9f79854d69480aa4a11089/main.scssc" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/main.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/main.css.map" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/main.scss" afterPath="$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/main.scss" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/wma-theme/header.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/img/wma-logo.png" afterPath="$PROJECT_DIR$/wp-content/themes/wma-theme/img/wma-logo.png" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/wma-theme/style.css" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/inferno.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/modern.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/purplehaze.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/spilledcoffee.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/stairway.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/sugarlove.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/sverige.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/vatten.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/words.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/firstlook.php" afterPath="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/firstlook.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +34,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5644">
-              <caret line="332" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="362" selection-end-column="0" />
+            <state relative-caret-position="-561">
+              <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -30,8 +44,28 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dreamsofsummer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/dreamsofsummer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1513">
+              <caret line="89" column="45" lean-forward="false" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -98,7 +132,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/welcome.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/galleri.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/firstlook.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/assets/js/slideshow.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/carousel.php" />
@@ -106,6 +139,17 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/slider.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/dreamsofsummer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/inferno.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/modern.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/purplehaze.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/spilledcoffee.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/stairway.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/sugarlove.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/sverige.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/vatten.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/words.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/firstlook.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/main.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wma-theme/header.php" />
       </list>
@@ -225,12 +269,13 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\MAMP\htdocs\Warped_Mind_Art\wp-content\themes\wma-theme\assets\sass" />
-      <recent name="C:\MAMP\htdocs\Warped_Mind_Art\wp-content\themes\wma-theme" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\MAMP\htdocs\Warped_Mind_Art\wp-content\themes\warpedmindart_theme\template-parts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\Warped_Mind_Art\wp-content\themes\wma-theme\template-parts" />
+      <recent name="C:\MAMP\htdocs\Warped_Mind_Art\wp-content\themes\wma-theme\assets\sass" />
+      <recent name="C:\MAMP\htdocs\Warped_Mind_Art\wp-content\themes\wma-theme" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,12 +316,12 @@
       <workItem from="1516534914330" duration="1335000" />
       <workItem from="1516536277011" duration="3827000" />
       <workItem from="1516540153260" duration="58515000" />
-      <workItem from="1516778998478" duration="7799000" />
+      <workItem from="1516778998478" duration="9546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135924000" />
+    <option name="totallyTimeSpent" value="137671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -335,14 +380,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/um-login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/inc/widget.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/um-register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -529,98 +566,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/sugarlove.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/words.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/vatten.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/stairway.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/sverige.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/spilledcoffee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/purplehaze.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/modern.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/inferno.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/firstlook.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -633,26 +582,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/inferno.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/modern.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/purplehaze.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/stairway.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/sugarlove.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/sverige.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/spilledcoffee.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/vatten.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/art/words.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
-          <caret line="89" column="45" lean-forward="true" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
+          <caret line="89" column="45" lean-forward="false" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/dreamsofsummer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/purplehaze.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5644">
-          <caret line="332" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="362" selection-end-column="0" />
+        <state relative-caret-position="-561">
+          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/firstlook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="105" lean-forward="false" selection-start-line="29" selection-start-column="105" selection-end-line="29" selection-end-column="105" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding />
         </state>
       </provider>
