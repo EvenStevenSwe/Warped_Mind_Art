@@ -35,6 +35,81 @@
   transition: 0.7s all linear;
   height: 100%; }
 
+@keyframes layer2Anim {
+  0% {
+    opacity: 0; }
+  17% {
+    opacity: 0; }
+  33% {
+    opacity: 1; }
+  50% {
+    opacity: 1; }
+  67% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+@keyframes layer3Anim {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  67% {
+    opacity: 1; }
+  83% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+.slideShow {
+  position: relative;
+  height: 220px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px; }
+
+.placeHolder {
+  width: 100%;
+  height: 100%;
+  visibility: hidden; }
+
+.wmalogo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-repeat: no-repeat; }
+
+.layer1 {
+  background-image: url("/wp-content/themes/wma-theme/img/img-slide1.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.layer2 {
+  background-image: url("/wp-content/themes/wma-theme/img/img-slide2.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: layer2Anim 10s infinite; }
+
+.layer3 {
+  background-image: url("/wp-content/themes/wma-theme/img/img-slide3.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: layer3Anim 10s infinite; }
+
 /* media queries */
 /* om sk├ñrmen blir mindre ├ñn 399px p├Ñ bredden anv├ñnds denna query */
 @media only screen and (max-width: 399px) {
@@ -126,92 +201,20 @@ ul {
   padding: 0;
   margin: 0; }
 
-/* style f├Âr slider */
-@keyframes layer2Anim {
-  0% {
-    opacity: 0; }
-  17% {
-    opacity: 0; }
-  33% {
-    opacity: 1; }
-  50% {
-    opacity: 1; }
-  67% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-@keyframes layer3Anim {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: 0; }
-  67% {
-    opacity: 1; }
-  83% {
-    opacity: 1; }
-  100% {
-    opacity: 0; } }
-.slideShow {
-  position: relative;
-  height: 220px;
-  width: 80%;
-  margin: auto;
-  margin-bottom: 30px; }
-
-.placeHolder {
-  width: 100%;
-  height: 100%;
-  visibility: hidden; }
-
-.wmalogo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  background-repeat: no-repeat; }
-
-.layer1 {
-  background-image: url("/wp-content/themes/wma-theme/img/img-slide1.jpg");
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.layer2 {
-  background-image: url("/wp-content/themes/wma-theme/img/img-slide2.jpg");
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  animation: layer2Anim 10s infinite; }
-
-.layer3 {
-  background-image: url("/wp-content/themes/wma-theme/img/img-slide3.jpg");
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  animation: layer3Anim 10s infinite; }
-
-/* style f├Âr v├ñlkomstrutan */
+/* style f├Âr textrutor */
 h4.toptext {
   margin-left: 10px; }
 
-.wma-welcome {
+.wma-textruta {
   background-color: #c2c2c2;
   width: 80%;
   border: 1px solid;
   margin: auto;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000 !important; }
 
 /* style f├Âr v├ñlkomsttext */
 .wma-welcome-text {
@@ -219,18 +222,6 @@ h4.toptext {
   padding-top: 0;
   padding-bottom: 10px;
   padding-right: 10px; }
-
-/* style f├Âr urval */
-.wma-firstlook {
-  background-color: #c2c2c2;
-  width: 80%;
-  font-family: 'Dosis', sans-serif;
-  font-weight: bold;
-  font-size: 25px;
-  color: #000000 !important;
-  margin: auto;
-  margin-bottom: 30px;
-  padding-top: 10px; }
 
 /* style f├Âr grid */
 .firstlook {
@@ -258,6 +249,21 @@ h4.toptext {
   padding: 10px; }
 
 /* utseende p├Ñ sidor om varje tavla */
+/* style f├Âr galleri */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 280px; }
+
+div.gallery img {
+  width: 100%;
+  height: auto; }
+
+div.desc {
+  padding: 15px;
+  text-align: center; }
+
 /* style f├Âr l├ñnkar */
 a:link {
   font-family: 'Dosis', sans-serif;
@@ -269,21 +275,21 @@ a:link {
 /* bes├Âkt l├ñnk */
 a:visited {
   font-family: 'Dosis', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #000000 !important;
   text-decoration: none; }
 
 /* pil p├Ñ l├ñnk */
 a:hover {
   font-family: 'Dosis', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #000000 !important;
   text-decoration: none; }
 
 /* vald l├ñnk */
 a:active {
   font-family: 'Dosis', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #000000 !important;
   text-decoration: none; }
 

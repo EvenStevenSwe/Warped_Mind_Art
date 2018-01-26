@@ -9,7 +9,7 @@
 </head>
 <body>
 
-        <div class="wma-firstlook">
+        <div class="wma-textruta">
 	      <h4 class="toptext">Urval från Galleriet</h4>
 		   <section class="firstlook">
 			<div class="urval">

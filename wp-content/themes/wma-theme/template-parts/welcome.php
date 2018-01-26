@@ -3,7 +3,7 @@
 
 ?>
 
-<div class="wma-welcome">
+<div class="wma-textruta">
     <h4 class="toptext">Hej och välkommen till Warped Mind Art!</h4>
     <div class="wma-welcome-text">
 	        <h2>
