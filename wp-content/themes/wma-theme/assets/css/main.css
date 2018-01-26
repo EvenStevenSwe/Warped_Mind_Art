@@ -58,9 +58,6 @@
     display: inline; }
 
   .wma-mainmenu {
-    display: none; }
-
-  .slideShow {
     display: none; } }
 /* om sk├ñrmen ├ñr minst 600px p├Ñ bredden anv├ñnds denna query */
 @media only screen and (min-width: 600px) {
@@ -81,10 +78,7 @@
     display: none; }
 
   .wma-mainmenu {
-    display: inline; }
-
-  .slideShow {
-    display: inline-block; } }
+    display: inline; } }
 /* bakgrundsf├ñrger och typsnitt med storlekar */
 body {
   background-color: #565656; }
