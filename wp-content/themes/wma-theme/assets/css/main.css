@@ -250,20 +250,31 @@ h4.toptext {
 
 /* utseende p├Ñ sidor om varje tavla */
 /* style f├Âr galleri */
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 280px; }
+.galleri {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem; }
 
-div.gallery img {
-  width: 100%;
-  height: auto; }
+.galleri-img {
+  max-width: 100%; }
 
-div.desc {
-  padding: 15px;
-  text-align: center; }
+.cell img {
+  display: block; }
 
+.cell {
+  margin: 1rem; }
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; }
+
+  .cell {
+    width: calc(50% - 2rem); } }
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(33.3333% - 2rem); } }
 /* style f├Âr l├ñnkar */
 a:link {
   font-family: 'Dosis', sans-serif;
