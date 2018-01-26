@@ -248,7 +248,6 @@ h4.toptext {
   width: 100%;
   padding: 10px; }
 
-/* utseende p├Ñ sidor om varje tavla */
 /* style f├Âr galleri */
 .galleri {
   margin: 0 auto;
@@ -275,6 +274,7 @@ h4.toptext {
 @media screen and (min-width: 1000px) {
   .cell {
     width: calc(33.3333% - 2rem); } }
+/* style f├Âr kontakt */
 /* style f├Âr l├ñnkar */
 a:link {
   font-family: 'Dosis', sans-serif;
