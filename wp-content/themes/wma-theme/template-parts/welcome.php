@@ -5,7 +5,7 @@
 
 <div class="wma-textruta">
     <h4 class="toptext">Hej och välkommen till Warped Mind Art!</h4>
-    <div class="wma-welcome-text">
+    <div class="wma-text">
 	        <h2>
                 <p>Här kommer jag att visa upp och sälja de konstverk som jag har skapat. Än så länge finns det inte så väldigt mycket att titta på här.
                 Men kolla runt, kanske det redan finns något nu som du gillar? Inget av det jag gör finns i fler än ett exemplar så gör dig själv en tjänst och vänta inte.</p>

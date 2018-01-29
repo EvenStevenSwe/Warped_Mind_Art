@@ -21,10 +21,10 @@ get_header();?>
 
                 <div class="submit-delete">
                     <input type="submit" value="Skicka" id="input-submit-delete"><input type="reset" value="Rensa" id="input-submit-delete">
-                </div>
+                </div> <!-- submit-delete -->
 
             </form>
-        </div>
+        </div> <!-- wma-contact -->
     </div> <!-- wma-textruta -->
 
 <?php get_footer();

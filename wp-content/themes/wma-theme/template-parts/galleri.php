@@ -26,16 +26,20 @@ get_header();?>
                     <figure><h2 class="galleri-title"><a href="<?php echo get_page_link( get_page_by_title( Purple )->ID ); ?>">Purple Haze</a></h2></figure>
                 </div>
                 <div class="cell">
-                    <img class="galleri-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/inferno.jpg"/>
-                    <figure><h2 class="galleri-title"><a href="<?php echo get_page_link( get_page_by_title( Slayer )->ID ); ?>">Slayer</a></h2></figure>
-                </div>
-                <div class="cell">
                     <img class="galleri-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/spilledcoffee.jpg"/>
                     <figure><h2 class="galleri-title"><a href="<?php echo get_page_link( get_page_by_title( Spilled )->ID ); ?>">Spilled Coffee</a></h2></figure>
                 </div>
                 <div class="cell">
+                    <img class="galleri-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/inferno.jpg"/>
+                    <figure><h2 class="galleri-title"><a href="<?php echo get_page_link( get_page_by_title( Slayer )->ID ); ?>">Slayer</a></h2></figure>
+                </div>
+                <div class="cell">
                     <img class="galleri-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/trappa.jpg"/>
                     <figure><div class="desc"><h2 class="galleri-title"><a href="<?php echo get_page_link( get_page_by_title( Stairway )->ID ); ?>">Stairway</a></h2></figure>
+                </div>
+                <div class="cell">
+                    <img class="galleri-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/inferno.jpg"/>
+                    <figure><h2 class="galleri-title"><a href="<?php echo get_page_link( get_page_by_title( Sugar )->ID ); ?>">Sugar Love</a></h2></figure>
                 </div>
                 <div class="cell">
                     <img class="galleri-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/sverige.jpg"/>

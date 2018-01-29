@@ -35,11 +35,6 @@ function load_scripts() {
 
 }
 
-//Function to add mobile menu
-//function wma_mobile_menu() {
-//	register_nav_menu( 'primary-mobile', __( 'Primary Mobile Menu', 'wma-theme' ) );
-//}
-
 //Function for custom widgets with footer & header menu
 function wma_widgets_init() {
 	register_sidebar( array(
@@ -92,15 +87,6 @@ function wma_widgets_init() {
 		'after_title'   => '</h4>',
 	) );
 
-	register_sidebar( array(
-		'name'          => esc_html__( 'MobileMenu', 'wma' ),
-		'id'            => 'mobile-menu',
-		'description'   => esc_html__( 'Add widgets here.', 'wma' ),
-		'before_widget' => '<div id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</div>',
-		'before_title'  => '<h4 class="widget-title">',
-		'after_title'   => '</h4>',
-	) );
 }
 
 //Executes and loads all of the css styles

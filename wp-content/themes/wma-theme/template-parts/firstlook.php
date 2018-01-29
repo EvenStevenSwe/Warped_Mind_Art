@@ -28,6 +28,7 @@
 				<img class="firstlook-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/sverige.jpg"/>
 				<h2 class="firstlook-title"><a href="<?php echo get_page_link( get_page_by_title( Sverige )->ID ); ?>">Sverige</a></h2>
 			</div>
+
 			</section> <!-- firstlook -->
 		</div> <!-- wma-firstlook -->
 

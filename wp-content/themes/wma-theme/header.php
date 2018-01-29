@@ -27,12 +27,12 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
                                 <li><a href="<?php echo get_page_link( get_page_by_title( Dreams )->ID ); ?>">Startsida</a></li>
-                                <li><a href="<?php echo get_page_link( get_page_by_title( Dreams )->ID ); ?>">Galleri</a></li>
-                                <li><a href="<?php echo get_page_link( get_page_by_title( Dreams )->ID ); ?>">Kontakt</a></li>
-                                <li><a href="<?php echo get_page_link( get_page_by_title( Dreams )->ID ); ?>">Nyheter</a></li>
-                                <li><a href="<?php echo get_page_link( get_page_by_title( Dreams )->ID ); ?>">Konto</a></li>
-                                <li><a href="<?php echo get_page_link( get_page_by_title( Dreams )->ID ); ?>">Om WMA</a></li>
-                                <li><a href="<?php echo get_page_link( get_page_by_title( Dreams )->ID ); ?>">Beställning</a></li>
+                                <li><a href="<?php echo get_page_link( get_page_by_title( Galleri )->ID ); ?>">Galleri</a></li>
+                                <li><a href="<?php echo get_page_link( get_page_by_title( Kontakt )->ID ); ?>">Kontakt</a></li>
+                                <li><a href="<?php echo get_page_link( get_page_by_title( Nyheter )->ID ); ?>">Nyheter</a></li>
+                                <li><a href="<?php echo get_page_link( get_page_by_title( Konto )->ID ); ?>">Konto</a></li>
+                                <li><a href="<?php echo get_page_link( get_page_by_title( Om_WMA )->ID ); ?>">Om WMA</a></li>
+                                <li><a href="<?php echo get_page_link( get_page_by_title( Beställning )->ID ); ?>">Beställning</a></li>
                             </ul>
                         </div> <!-- collapse navbar-collapse -->
                     </div> <!-- container -->

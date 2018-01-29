@@ -123,7 +123,10 @@
     display: none; }
 
   .slideShow {
-    display: none; } }
+    display: none; }
+
+  .om-wma-img {
+    width: 100%; } }
 /* om sk├ñrmen ├ñr minst 400px p├Ñ bredden anv├ñnds denna query */
 @media only screen and (min-width: 400px) {
   .wmalogo img {
@@ -216,12 +219,13 @@ h4.toptext {
   font-size: 18px;
   color: #000000 !important; }
 
-/* style f├Âr v├ñlkomsttext */
-.wma-welcome-text {
+/* style f├Âr textstycken */
+.wma-text {
   padding-left: 10px;
   padding-top: 0;
   padding-bottom: 10px;
-  padding-right: 10px; }
+  padding-right: 10px;
+  overflow: auto; }
 
 /* style f├Âr grid */
 .firstlook {
@@ -322,10 +326,18 @@ form {
   .wma-contact {
     margin: auto;
     margin-bottom: 10px; } }
+/* style f├Âr Om WMA */
+.om-wma-img {
+  float: right; }
+
+/* style f├Âr 
+
+
+
 /* style f├Âr l├ñnkar */
 a:link {
   font-family: 'Dosis', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   color: #000000 !important;
   text-decoration: none; }
@@ -333,21 +345,21 @@ a:link {
 /* bes├Âkt l├ñnk */
 a:visited {
   font-family: 'Dosis', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: #000000 !important;
   text-decoration: none; }
 
 /* pil p├Ñ l├ñnk */
 a:hover {
   font-family: 'Dosis', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: #000000 !important;
   text-decoration: none; }
 
 /* vald l├ñnk */
 a:active {
   font-family: 'Dosis', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: #000000 !important;
   text-decoration: none; }
 
@@ -390,7 +402,10 @@ footer label {
   border-top: 1px solid #000000;
   padding-top: 5px; }
 
-/* ├ñndrar typsnitt p├Ñ knappen */
+/* ├ñndrar style f├Âr element vid nyhetsbrev */
+input#an-mailchimp-email-2 {
+  width: 100%; }
+
 input.mpam-submit.button {
   font-family: 'Dosis', sans-serif;
   font-size: 14px;
