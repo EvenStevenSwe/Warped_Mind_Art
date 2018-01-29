@@ -6,19 +6,25 @@ get_header();?>
 
     <div class="wma-textruta">
         <h4 class="toptext">Kontakt</h4>
-            <div class="wma-kontakt">
-
-        <form>
+        <div class="wma-contact">
             <form action="mail.php" method="POST">
-                Meddelande: <textarea name="message" rows="6" cols="25"></textarea>
-                Namn: <input type="text" name="name">
-                E-post: <input type="text" name="email">
-                Ämne: <input type="text" name="amne">
-                <input type="submit" value="Skicka"><input type="reset" value="Rensa">
-          </form>
 
-            </div>
+                <div class="contact left">
+                    <textarea name="message" rows="7" placeholder="Meddelande"></textarea>
+                </div> <!-- contact left -->
 
+                <div class="contact right">
+                    <input type="text" name="name" placeholder="Namn">
+                    <input type="text" name="email" placeholder="E-post"">
+                    <input type="text" name="amne" placeholder="Ämne">
+                </div> <!-- contact right -->
+
+                <div class="submit-delete">
+                    <input type="submit" value="Skicka" id="input-submit-delete"><input type="reset" value="Rensa" id="input-submit-delete">
+                </div>
+
+            </form>
+        </div>
     </div> <!-- wma-textruta -->
 
 <?php get_footer();
