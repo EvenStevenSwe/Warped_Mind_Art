@@ -19,6 +19,7 @@
   .wma-mainmenu { display: none; }
   .slideShow { display: none; }
   .om-wma-img { width: 100%; }
+  .artinfo-img { width: 100%; }
 }
 
 /* om skärmen är minst 400px på bredden används denna query */
@@ -278,8 +279,43 @@ form {
   float: right;
 }
 
-/* style för 
+/* style för tavelsidor */
 
+.artinfo img {
+  width: 50%;
+}
+
+.artinfo {
+  float: left;
+  width: 48%;
+  }
+
+.right {
+  width: 50%;
+  height: 100%;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.left {
+  margin-right: 2%;
+}
+
+.artinfo-back {
+  width: 100%;
+
+  h2 {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .artinfo {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}
 
 
 /* style för länkar */

@@ -126,6 +126,9 @@
     display: none; }
 
   .om-wma-img {
+    width: 100%; }
+
+  .artinfo-img {
     width: 100%; } }
 /* om sk├ñrmen ├ñr minst 400px p├Ñ bredden anv├ñnds denna query */
 @media only screen and (min-width: 400px) {
@@ -330,10 +333,33 @@ form {
 .om-wma-img {
   float: right; }
 
-/* style f├Âr 
+/* style f├Âr tavelsidor */
+.artinfo img {
+  width: 50%; }
 
+.artinfo {
+  float: left;
+  width: 48%; }
 
+.right {
+  width: 50%;
+  height: 100%;
+  font-size: 14px;
+  font-weight: normal; }
 
+.left {
+  margin-right: 2%; }
+
+.artinfo-back {
+  width: 100%; }
+  .artinfo-back h2 {
+    margin-left: 10px; }
+
+@media (max-width: 480px) {
+  .artinfo {
+    width: 100%;
+    float: none;
+    margin-bottom: 0; } }
 /* style f├Âr l├ñnkar */
 a:link {
   font-family: 'Dosis', sans-serif;
