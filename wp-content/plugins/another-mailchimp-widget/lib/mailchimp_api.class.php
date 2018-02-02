@@ -273,7 +273,8 @@ class MailChimp_API {
 		$this->init_options( $settings );
 		$email    = sanitize_email( $email );
 		$lists    = $settings[ 'list_ids' ];
-		$status   = ( isset( $settings[ 'send_confirm' ] ) && $settings[ 'send_confirm' ] ) ? 'pending' : 'subscribed';
+		$status   = ( isset( $settings[ 'send_confirm' ] ) && $settings[ 'send_confirm' ] ) ? 'pending' :
+			apply_filters('an_mc_default_subscription_status', 'subscribed');
 		$response = array();
 		
 		if ( $email ) {

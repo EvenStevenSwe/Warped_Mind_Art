@@ -20,7 +20,7 @@ Based on [jameslafferty](https://profiles.wordpress.org/jameslafferty/) ["MailCh
 [mp-mc-form list="list_id/group_id" button="Subscribe" email_text="Your E-mail" first_name_text="First Name" last_name_text="Last Name" placeholder="true" firstname="false" lastname="false" success="Thank you for joining our mailing list." failure="There was a problem processing your submission." ]
 
 = Shortcode attributes: =
-* list - MailChimp list_id or list_id/group_id if you want to subscribe to specific group.
+* list - MailChimp list_id or list_id/group_id if you want to subscribe to specific group. To subscribe to several lists and groups separate them by comma.
 * button - button label
 * email_text - label of the email address field
 * first_name_text - label of the first name field
@@ -45,6 +45,9 @@ Based on [jameslafferty](https://profiles.wordpress.org/jameslafferty/) ["MailCh
 == Frequently Asked Questions ==
 
 == Changelog ==
+
+= 2.0.5 =
+* Added filter to default subscription status.
 
 = 2.0.4 =
 * Added the lists, groups and shortcode attributes to the plugin settings.

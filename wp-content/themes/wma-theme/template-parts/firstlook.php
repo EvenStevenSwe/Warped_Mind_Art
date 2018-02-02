@@ -13,19 +13,19 @@
 	      <h4 class="toptext">Urval från Galleriet</h4>
 		   <section class="firstlook">
 			<div class="urval">
-				<img class="firstlook-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/dreamsofsummer.jpg"/>
+				<img class="firstlook-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_dreams.jpg"/>
 				<h2 class="firstlook-title"><a href="<?php echo get_page_link( get_page_by_title( Dreams )->ID ); ?>">Dreams of Summer</a></h2>
 			</div>
 			<div class="urval">
-				<img class="firstlook-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/inferno.jpg"/>
+				<img class="firstlook-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_inferno.jpg"/>
 				<h2 class="firstlook-title"><a href="<?php echo get_page_link( get_page_by_title( Inferno )->ID ); ?>">Inferno</a></h2>
 			</div>
 			<div class="urval">
-				<img class="firstlook-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/purplehaze.jpg"/>
+				<img class="firstlook-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_purple.jpg"/>
 				<h2 class="firstlook-title"><a href="<?php echo get_page_link( get_page_by_title( Purple )->ID ); ?>">Purple Haze</a></h2>
 			</div>
 			<div class="urval">
-				<img class="firstlook-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/sverige.jpg"/>
+				<img class="firstlook-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_sverige.jpg"/>
 				<h2 class="firstlook-title"><a href="<?php echo get_page_link( get_page_by_title( Sverige )->ID ); ?>">Sverige</a></h2>
 			</div>
 

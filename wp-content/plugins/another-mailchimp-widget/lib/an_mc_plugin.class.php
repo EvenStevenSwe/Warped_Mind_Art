@@ -239,7 +239,7 @@ class AN_MC_Plugin {
 			<code>[mp-mc-form list="list_id/group_id" button="Subscribe" email_text="Your E-mail" first_name_text="First Name" last_name_text="Last Name" placeholder="true" firstname="false" lastname="false" success="Thank you for joining our mailing list." failure="There was a problem processing your submission." ]</code>
 			<h4><?php _e( 'Shortcode attributes:', 'another-mailchimp-widget' ); ?></h4>
 			<ul>
-				<li><?php printf( __( '%s - MailChimp <kbd>list_id</kbd> or <kbd>list_id/group_id</kbd> if you want to subscribe to specific group.', 'another-mailchimp-widget' ), '<code>list</code>' ) ?></li>
+				<li><?php printf( __( '%s - MailChimp <kbd>list_id</kbd> or <kbd>list_id/group_id</kbd> if you want to subscribe to specific group. To subscribe to several lists and groups separate them by comma.', 'another-mailchimp-widget' ), '<code>list</code>' ) ?></li>
 				<li><?php printf( __( '%s - button label.', 'another-mailchimp-widget' ), '<code>button</code>' ) ?></li>
 				<li><?php printf( __( '%s - label of the email address field.', 'another-mailchimp-widget' ), '<code>email_text</code>' ) ?></li>
 				<li><?php printf( __( '%s - label of the first name field.', 'another-mailchimp-widget' ), '<code>first_name_text</code>' ) ?></li>

@@ -26,7 +26,7 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
-                                <li><a href="<?php echo get_page_link( get_page_by_title( Dreams )->ID ); ?>">Startsida</a></li>
+                                <li><a href="<?php echo get_page_link( get_page_by_title( Startsida )->ID ); ?>">Startsida</a></li>
                                 <li><a href="<?php echo get_page_link( get_page_by_title( Galleri )->ID ); ?>">Galleri</a></li>
                                 <li><a href="<?php echo get_page_link( get_page_by_title( Kontakt )->ID ); ?>">Kontakt</a></li>
                                 <li><a href="<?php echo get_page_link( get_page_by_title( Nyheter )->ID ); ?>">Nyheter</a></li>

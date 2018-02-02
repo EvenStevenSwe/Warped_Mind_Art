@@ -30,8 +30,7 @@ function bootstrapstarter_enqueue_scripts() {
 //Function that stores all scripts
 function load_scripts() {
     wp_enqueue_script('jquery');
-    wp_enqueue_script('showhide.js', get_template_directory_uri() . '/assets/js/showhide.js', array('jquery'), '1.0.0', false);
-	wp_enqueue_script('jquery.js', get_template_directory_uri() . '/assets/js/jQuery.js', array('jquery'), false);
+    wp_enqueue_script('jquery.js', get_template_directory_uri() . '/assets/js/jQuery.js', array('jquery'), false);
 
 }
 

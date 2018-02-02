@@ -14,9 +14,9 @@ get_header();?>
                 </div> <!-- contact left -->
 
                 <div class="contact right">
-                    <input type="text" name="name" placeholder="Namn">
-                    <input type="text" name="email" placeholder="E-post"">
-                    <input type="text" name="amne" placeholder="Ämne">
+                    <input type="text" name="name" placeholder="Namn" id="mobilefield">
+                    <input type="text" name="email" placeholder="E-post" id="mobilefield">
+                    <input type="text" name="amne" placeholder="Ämne" id="mobilefield">
                 </div> <!-- contact right -->
 
                 <div class="submit-delete">

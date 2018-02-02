@@ -20,7 +20,15 @@ get_header();?>
             så många verk på plats ännu men mera saker kommer att hamna så snart dom är skapade. Det finns många idéer som ligger och gror och vem vet? Kanske något av det som kommer i framtiden är precis
             just det som du har letar efter till ditt hem. Det lättaste sättet för dig att få veta detta är som jag nämnde på startsidan att börja prenumenera på nyhetsbrevet.</p>
 
-                <p><Jag ska inte bli tråka ut er med mera text så här i början, men jag vill återigen tacka så mycket för visat intresse och hoppas att du fortsätter följa min resa inom konsten./p>
+                <p>Jag ska inte bli tråka ut er med mera text så här i början, men jag vill återigen tacka så mycket för visat intresse och hoppas att du fortsätter följa min resa inom konsten.</p>
+
+                Några verk som är på väg heter:<br>
+                <ul>
+                    <li>Tribute to R2R</li>
+                    <li>The Hallway</li>
+                    <li>Just Coffee Please</li>
+                    <li>See the Music</li>
+                </ul><br>
 
                 <p>Ha det bra!</p>
 

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-01-18 15:40+0200\n"
+"POT-Creation-Date: 2018-01-30 14:52+0200\n"
 "PO-Revision-Date: 2015-12-21 10:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -74,7 +74,8 @@ msgstr ""
 #, php-format
 msgid ""
 "%s - MailChimp <kbd>list_id</kbd> or <kbd>list_id/group_id</kbd> if you want "
-"to subscribe to specific group."
+"to subscribe to specific group. To subscribe to several lists and groups "
+"separate them by comma."
 msgstr ""
 
 #: lib/an_mc_plugin.class.php:243
@@ -261,7 +262,7 @@ msgstr ""
 msgid "Invalid MailChimp API key"
 msgstr ""
 
-#: lib/mailchimp_api.class.php:323
+#: lib/mailchimp_api.class.php:324
 msgid "Unable to subscribe user."
 msgstr ""
 
