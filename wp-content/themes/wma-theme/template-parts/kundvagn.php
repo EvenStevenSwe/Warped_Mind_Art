@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: bestallning
+Template Name: kundvagn
 */
 get_header();?>
 
@@ -8,7 +8,8 @@ get_header();?>
 		<div class="wma-text">
 			<h2>
 
-
+				<?php echo do_shortcode('[woocommerce_cart]');  ?>
+				<?php echo do_shortcode('[woocommerce_checkout]');  ?>
 
 
 			</h2>

@@ -12,10 +12,11 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+    <div class="wma-textruta">
+    <div class="wma-text">
+        <h2>
 
-			<?php woocommerce_content(); ?>
+			<?php woocommerce_content();
 
 				do_action( 'storefront_page_before' );
 
@@ -26,12 +27,13 @@ get_header(); ?>
 				 *
 				 * @hooked storefront_display_comments - 10
 				 */
-				do_action( 'storefront_page_after' );
+				do_action( 'storefront_page_after' ) ?>
 
-			endwhile; // End of the loop. ?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+
+        </h2>
+    </div> <!-- wma-text -->
+    </div> <!-- wma-textruta -->
 
 <?php
 do_action( 'storefront_sidebar' );

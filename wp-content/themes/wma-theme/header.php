@@ -32,7 +32,7 @@
                                 <li><a href="<?php echo get_page_link( get_page_by_title( Nyheter )->ID ); ?>">Nyheter</a></li>
                                 <li><a href="<?php echo get_page_link( get_page_by_title( Konto )->ID ); ?>">Konto</a></li>
                                 <li><a href="<?php echo get_page_link( get_page_by_title( Om_WMA )->ID ); ?>">Om WMA</a></li>
-                                <li><a href="<?php echo get_page_link( get_page_by_title( Beställning )->ID ); ?>">Beställning</a></li>
+                                <li><a href="<?php echo get_page_link( get_page_by_title( Kundvagn )->ID ); ?>">Kundvagn</a></li>
                             </ul>
                         </div> <!-- collapse navbar-collapse -->
                     </div> <!-- container -->
