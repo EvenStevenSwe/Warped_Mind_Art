@@ -5,11 +5,11 @@ Template Name: modern
 get_header();?>
 
     <div class="wma-textruta">
-        <h4 class="toptext">Modern</h4>
+        <h4 class="toptext">Modern Art</h4>
 
         <div class="wma-text">
             <div class="artinfo left">
-                <img class="artinfo-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_modern.jpg"/>
+                    <img class="artinfo-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_modern.jpg"/>
             </div> <!-- artinfo left -->
             <div class="artinfo right">
 
@@ -18,6 +18,8 @@ get_header();?>
 
                 <p>Gjord på canvas med akrylfärger och ståltråd</p>
                 <p>21 x 15 cm.</p>
+
+	            <p><?php get_template_part('/template-parts/socialshare', '/template-parts/socialshare.php'); ?></p>
 
                 Denna tavla är såld!
 

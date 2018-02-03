@@ -1,152 +1,61 @@
-/**
- * WooCommerce Product Reviews Pro
- */
-/**
- * Imports
- */
-.woocommerce #reviews .product-rating .product-rating-summary,
-.woocommerce #reviews .product-rating .product-rating-details,
-.woocommerce-page #reviews .product-rating .product-rating-summary,
-.woocommerce-page #reviews .product-rating .product-rating-details {
-  display: block;
-  width: 100%; }
+/*
+Error: File to import not found or unreadable: bourbon.
+        on line 8 of product-reviews-pro.scss
 
-.woocommerce #reviews .product-rating .product-rating-summary,
-.woocommerce-page #reviews .product-rating .product-rating-summary {
-  text-align: left; }
+3:  *\/
+4: 
+5: /**
+6:  * Imports
+7:  *\/
+8: @import 'bourbon';
+9: @import '../../../../assets/sass/utils/variables';
+10: @import '../../../../assets/sass/utils/mixins';
+11: @import '../../../../node_modules/susy/sass/susy';
+12: @import '../../../../assets/sass/vendors/modular-scale';
+13: 
 
-.woocommerce #reviews .product-rating .product-rating-details table td,
-.woocommerce-page #reviews .product-rating .product-rating-details table td {
-  padding: 0.202em 0.5407911001em; }
-  .woocommerce #reviews .product-rating .product-rating-details table td.rating-graph .bar,
-  .woocommerce-page #reviews .product-rating .product-rating-details table td.rating-graph .bar {
-    background-color: #43454b; }
-  .woocommerce #reviews .product-rating .product-rating-details table td.rating-count a,
-  .woocommerce-page #reviews .product-rating .product-rating-details table td.rating-count a {
-    text-decoration: none; }
-
-.woocommerce #reviews .form-contribution,
-.woocommerce-page #reviews .form-contribution {
-  border-color: rgba(0, 0, 0, 0.05);
-  padding: 1em; }
-  .woocommerce #reviews .form-contribution #review_rating_field fieldset,
-  .woocommerce-page #reviews .form-contribution #review_rating_field fieldset {
-    float: left; }
-    .woocommerce #reviews .form-contribution #review_rating_field fieldset label,
-    .woocommerce-page #reviews .form-contribution #review_rating_field fieldset label {
-      display: inline-block;
-      float: right; }
-      .woocommerce #reviews .form-contribution #review_rating_field fieldset label.checkbox:before,
-      .woocommerce-page #reviews .form-contribution #review_rating_field fieldset label.checkbox:before {
-        font-size: 0.875em; }
-    .woocommerce #reviews .form-contribution #review_rating_field fieldset .star-label,
-    .woocommerce-page #reviews .form-contribution #review_rating_field fieldset .star-label {
-      float: none;
-      margin-left: 0.6180469716em; }
-  .woocommerce #reviews .form-contribution .form-row,
-  .woocommerce-page #reviews .form-contribution .form-row {
-    clear: both; }
-
-.woocommerce #reviews .contribution-karma,
-.woocommerce-page #reviews .contribution-karma {
-  margin-left: 0; }
-
-.woocommerce #reviews #comments ol.commentlist li,
-.woocommerce-page #reviews #comments ol.commentlist li {
-  padding-top: 0; }
-  .woocommerce #reviews #comments ol.commentlist li img.avatar,
-  .woocommerce-page #reviews #comments ol.commentlist li img.avatar {
-    width: 2.617924em;
-    height: auto;
-    margin: 0;
-    float: right; }
-  .woocommerce #reviews #comments ol.commentlist li .description,
-  .woocommerce-page #reviews #comments ol.commentlist li .description {
-    padding-bottom: 0; }
-  .woocommerce #reviews #comments ol.commentlist li .comment-text,
-  .woocommerce-page #reviews #comments ol.commentlist li .comment-text {
-    margin-left: 0; }
-    .woocommerce #reviews #comments ol.commentlist li .comment-text img,
-    .woocommerce #reviews #comments ol.commentlist li .comment-text iframe,
-    .woocommerce-page #reviews #comments ol.commentlist li .comment-text img,
-    .woocommerce-page #reviews #comments ol.commentlist li .comment-text iframe {
-      margin-bottom: 1.618em; }
-  .woocommerce #reviews #comments ol.commentlist li h3.contribution-title,
-  .woocommerce-page #reviews #comments ol.commentlist li h3.contribution-title {
-    margin: 0;
-    font-size: 1em; }
-  .woocommerce #reviews #comments ol.commentlist li .contribution-actions a,
-  .woocommerce-page #reviews #comments ol.commentlist li .contribution-actions a {
-    color: #2c2d33; }
-    .woocommerce #reviews #comments ol.commentlist li .contribution-actions a.done,
-    .woocommerce-page #reviews #comments ol.commentlist li .contribution-actions a.done {
-      opacity: 0.5; }
-  .woocommerce #reviews #comments ol.commentlist li ul.children li,
-  .woocommerce-page #reviews #comments ol.commentlist li ul.children li {
-    margin-bottom: 1.618em; }
-
-.woocommerce #reviews #comments .form-contribution_comment,
-.woocommerce-page #reviews #comments .form-contribution_comment {
-  width: 81.8181818182%;
-  float: right;
-  margin-right: 0;
-  margin-bottom: 3.706325903em;
-  padding-top: 1.618em; }
-
-.woocommerce #reviews #comments ul.children + .form-contribution_comment,
-.woocommerce-page #reviews #comments ul.children + .form-contribution_comment {
-  border-top: 0;
-  padding-top: 0; }
-
-.woocommerce #reviews .contribution-flag-form,
-.woocommerce-page #reviews .contribution-flag-form {
-  background-color: rgba(0, 0, 0, 0.1);
-  padding: 1.618em;
-  margin-bottom: 1.618em; }
-
-.woocommerce .form-photo #photo_attachment_file,
-.woocommerce-page .form-photo #photo_attachment_file {
-  color: inherit;
-  margin: 1em 0; }
-
-.woocommerce .contribution-type-selector,
-.woocommerce-page .contribution-type-selector {
-  margin: 0; }
-  .woocommerce .contribution-type-selector > a,
-  .woocommerce-page .contribution-type-selector > a {
-    display: inline-block;
-    margin-right: 1em;
-    padding: 0.5407911001em 0;
-    border-bottom: 0.202em solid rgba(0, 0, 0, 0.05); }
-    .woocommerce .contribution-type-selector > a.active,
-    .woocommerce-page .contribution-type-selector > a.active {
-      border-bottom-color: rgba(0, 0, 0, 0.05); }
-
-.woocommerce .star-rating-selector fieldset,
-.woocommerce-page .star-rating-selector fieldset {
-  float: none;
-  clear: both; }
-
-.woocommerce .star-rating-selector > label:first-child,
-.woocommerce-page .star-rating-selector > label:first-child {
-  display: block !important; }
-
-.woocommerce .star-rating-selector:not(:checked) label.checkbox,
-.woocommerce-page .star-rating-selector:not(:checked) label.checkbox {
-  float: none; }
-
-.woocommerce #wc-product-reviews-pro-modal #customer_login .col-1,
-.woocommerce #wc-product-reviews-pro-modal #customer_login .col-2,
-.woocommerce-page #wc-product-reviews-pro-modal #customer_login .col-1,
-.woocommerce-page #wc-product-reviews-pro-modal #customer_login .col-2 {
-  width: 100%; }
-
-#tiptip_content,
-.chart-tooltip {
-  font-size: 0.875em;
-  padding: 0.6180469716em 1em;
-  background-color: rgba(0, 0, 0, 0.8); }
-
-#tiptip_holder.tip_bottom #tiptip_arrow_inner {
-  border-bottom-color: rgba(0, 0, 0, 0.8);
-  margin-top: -6px; }
+Backtrace:
+product-reviews-pro.scss:8
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/import_node.rb:45:in `import'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `block in with_base'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `with_base'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin.rb:82:in `update_stylesheets'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/base.rb:52:in `parse'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/base.rb:19:in `parse!'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/bin/scss:13:in `<top (required)>'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/bin/scss:23:in `load'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: bourbon.\A         on line 8 of product-reviews-pro.scss\A \A 3:  */\A 4: \A 5: /**\A 6:  * Imports\A 7:  */\A 8: @import 'bourbon';\A 9: @import '../../../../assets/sass/utils/variables';\A 10: @import '../../../../assets/sass/utils/mixins';\A 11: @import '../../../../node_modules/susy/sass/susy';\A 12: @import '../../../../assets/sass/vendors/modular-scale';\A 13: "; }

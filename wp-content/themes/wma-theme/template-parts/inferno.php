@@ -9,7 +9,7 @@ get_header();?>
 
         <div class="wma-text">
             <div class="artinfo left">
-                <img class="artinfo-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_inferno.jpg"/>
+                <img class="artinfo-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_inferno.jpg"/>
             </div> <!-- artinfo left -->
             <div class="artinfo right">
 
@@ -17,7 +17,9 @@ get_header();?>
                     ser ut när man har många idéer som alla försöker komma fram samtidigt.</p>
 
                 <p>Gjord på canvas med rikligt utblandade akrylfärger, glasfärg, lack och färgat tunnt rep som jag fäst runt om.</p>
-                50 x 40 cm.
+                <p>50 x 40 cm.</p>
+
+	            <?php get_template_part('/template-parts/socialshare', '/template-parts/socialshare.php'); ?>
 
             </div> <!-- artinfo right -->
         </div> <!-- wma-text -->

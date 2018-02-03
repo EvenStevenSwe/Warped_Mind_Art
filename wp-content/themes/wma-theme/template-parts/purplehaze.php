@@ -9,7 +9,7 @@ get_header();?>
 
         <div class="wma-text">
             <div class="artinfo left">
-                <img class="artinfo-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_purple.jpg"/>
+                <img class="artinfo-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_purple.jpg"/>
             </div> <!-- artinfo left -->
             <div class="artinfo right">
 
@@ -17,7 +17,9 @@ get_header();?>
                    själv vet den som kan musik, men det passsr väldigt bra tycker jag.</p>
 
                 <p>Gjord på canvas med akrylfärger och gipsband samt lite egna påhitt för en intressant struktur.</p>
-                50 x 40 cm.
+                <p>50 x 40 cm.</p>
+
+	            <?php get_template_part('/template-parts/socialshare', '/template-parts/socialshare.php'); ?>
 
             </div> <!-- artinfo right -->
         </div> <!-- wma-text -->

@@ -9,7 +9,7 @@ get_header();?>
 
         <div class="wma-text">
             <div class="artinfo left">
-                <img class="artinfo-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_words.jpg"/>
+                <img class="artinfo-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_words.jpg"/>
             </div> <!-- artinfo left -->
             <div class="artinfo right">
 
@@ -17,7 +17,9 @@ get_header();?>
                    Ytterligare en 80-talskoppling finns i det att tavlan är gjord i stil av en Dymo maskin.</p>
 
                 <p>Gjord på canvas med akrylfärger</p>
-                   15 x 21 cm.
+                   <p>15 x 21 cm.</p>
+
+	            <?php get_template_part('/template-parts/socialshare', '/template-parts/socialshare.php'); ?>
 
             </div> <!-- artinfo right -->
         </div> <!-- wma-text -->

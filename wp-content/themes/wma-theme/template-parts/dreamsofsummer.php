@@ -9,7 +9,7 @@ get_header();?>
 
         <div class="wma-text">
             <div class="artinfo left">
-                <img class="artinfo-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_dreams.jpg"/>
+                <img class="artinfo-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_dreams.jpg"/>
             </div> <!-- artinfo left -->
             <div class="artinfo right">
 
@@ -17,9 +17,11 @@ get_header();?>
                        behövde mera liv så jag fortsatte och detta blev resultatet.</p>
 
                     <p>Gjord på canvas med akrylfärger och lack.</p>
-                       50 x 40 cm.
+                    <p>50 x 40 cm.</p>
 
-            </div> <!-- artinfo right -->
+	            <?php get_template_part('/template-parts/socialshare', '/template-parts/socialshare.php'); ?>
+
+             </div> <!-- artinfo right -->
         </div> <!-- wma-text -->
         <div class="artinfo-back">
             <h2>Tillbaka till <a href="javascript:history.go(-1)">Galleriet</a></h2>

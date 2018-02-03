@@ -14,7 +14,7 @@ get_header();?>
 				en tid bakåt.
 				Jag fick en idé att jag skulle börja göra tavlor av/med material som jag antar inte används i någon större utsträckning traditionellt sätt, om man nu kan kalla
 				konst för det?</p>
-				<img class="om-wma-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/stefan.jpg"/>
+				<img class="om-wma-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/stefan.jpg"/>
 				<p>Det var redan 2015 som jag gjorde de första tavlorna, först ut var <a href="<?php echo get_page_link( get_page_by_title( Purple )->ID ); ?>">Purple Haze</a> och
 				<a href="<?php echo get_page_link( get_page_by_title( Sugar )->ID ); ?>">Sugar Love</a> som är gjorda efter grundidén som jag fick. Men ska man gå längre tillbaka så har jag
 					målat/tecknat/ritat hela livet och har en kreativ ådra som egentligen aldrig vilar utan idéer kommer så gott som hela tiden.</p>

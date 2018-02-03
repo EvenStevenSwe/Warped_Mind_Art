@@ -9,14 +9,16 @@ get_header();?>
 
         <div class="wma-text">
             <div class="artinfo left">
-                <img class="artinfo-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/spilledcoffee.jpg"/>
+                <img class="artinfo-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/spilledcoffee.jpg"/>
             </div> <!-- artinfo left -->
             <div class="artinfo right">
 
                 <p>Kaffe! Ja varför inte tänkte jag? Allt kan vara konst så jag gjorde denna.</p>
 
                 <p>Gjord på canvas med akrylfärger, gipsband och kaffe, samt bönor/pulver för lite extra dekoration.</p>
-                50 x 40 cm.
+                <p>50 x 40 cm.</p>
+
+	            <?php get_template_part('/template-parts/socialshare', '/template-parts/socialshare.php'); ?>
 
             </div> <!-- artinfo right -->
         </div> <!-- wma-text -->

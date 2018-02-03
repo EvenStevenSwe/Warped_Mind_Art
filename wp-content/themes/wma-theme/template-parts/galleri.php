@@ -15,52 +15,52 @@ get_header();?>
             <div class="grid">
                 <div class="cell">
                     <a href="<?php echo get_page_link( get_page_by_title( Dreams )->ID ); ?>">
-                    <img class="galleri-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_dreams.jpg"/></a>
+                    <img class="galleri-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_dreams.jpg"/></a>
                     <figure><h2 class="galleri-title"><a href="<?php echo get_page_link( get_page_by_title( Dreams )->ID ); ?>">Dreams of Summer</a></h2></figure>
                 </div>
                 <div class="cell">
                     <a href="<?php echo get_page_link( get_page_by_title( Inferno )->ID ); ?>">
-                    <img class="galleri-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_inferno.jpg"/></a>
+                    <img class="galleri-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_inferno.jpg"/></a>
                     <figure><h2 class="galleri-title"><a href="<?php echo get_page_link( get_page_by_title( Inferno )->ID ); ?>">Inferno</a></h2></figure>
                 </div>
                 <div class="cell">
                     <a href="<?php echo get_page_link( get_page_by_title( Modern )->ID ); ?>">
-                    <img class="galleri-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_modern.jpg"/></a>
+                    <img class="galleri-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_modern.jpg"/></a>
                     <figure><h2 class="galleri-title"><a href="<?php echo get_page_link( get_page_by_title( Modern )->ID ); ?>">Modern</a></h2></figure>
                 </div>
                 <div class="cell">
                     <a href="<?php echo get_page_link( get_page_by_title( Purple )->ID ); ?>">
-                    <img class="galleri-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_purple.jpg"/></a>
+                    <img class="galleri-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_purple.jpg"/></a>
                     <figure><h2 class="galleri-title"><a href="<?php echo get_page_link( get_page_by_title( Purple )->ID ); ?>">Purple Haze</a></h2></figure>
                 </div>
                 <div class="cell">
                     <a href="<?php echo get_page_link( get_page_by_title( Slayer )->ID ); ?>">
-                    <img class="galleri-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_slayer.jpg"/></a>
+                    <img class="galleri-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_slayer.jpg"/></a>
                     <figure><h2 class="galleri-title"><a href="<?php echo get_page_link( get_page_by_title( Slayer )->ID ); ?>">Slayer</a></h2></figure>
                 </div>
                 <div class="cell">
                     <a href="<?php echo get_page_link( get_page_by_title( Stairway )->ID ); ?>">
-                    <img class="galleri-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_stairway.jpg"/></a>
+                    <img class="galleri-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_stairway.jpg"/></a>
                     <figure><div class="desc"><h2 class="galleri-title"><a href="<?php echo get_page_link( get_page_by_title( Stairway )->ID ); ?>">Stairway</a></h2></figure>
                 </div>
                 <div class="cell">
                     <a href="<?php echo get_page_link( get_page_by_title( Sugar )->ID ); ?>">
-                    <img class="galleri-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_sugar.jpg"/></a>
+                    <img class="galleri-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_sugar.jpg"/></a>
                     <figure><h2 class="galleri-title"><a href="<?php echo get_page_link( get_page_by_title( Sugar )->ID ); ?>">Sugar Love</a></h2></figure>
                 </div>
                 <div class="cell">
                     <a href="<?php echo get_page_link( get_page_by_title( Sverige )->ID ); ?>">
-                    <img class="galleri-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_sverige.jpg"/></a>
+                    <img class="galleri-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_sverige.jpg"/></a>
                     <figure><h2 class="galleri-title"><a href="<?php echo get_page_link( get_page_by_title( Sverige )->ID ); ?>">Sverige</a></h2></figure>
                 </div>
                 <div class="cell">
                     <a href="<?php echo get_page_link( get_page_by_title( Vatten )->ID ); ?>">
-                    <img class="galleri-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_vatten.jpg"/></a>
+                    <img class="galleri-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_vatten.jpg"/></a>
                     <figure><h2 class="galleri-title"><a href="<?php echo get_page_link( get_page_by_title( Vatten )->ID ); ?>">Vatten</a></h2></figure>
                 </div>
                 <div class="cell">
                     <a href="<?php echo get_page_link( get_page_by_title( Words )->ID ); ?>">
-                    <img class="galleri-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_words.jpg"/></a>
+                    <img class="galleri-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_words.jpg"/></a>
                     <figure><h2 class="galleri-title"><a href="<?php echo get_page_link( get_page_by_title( Words )->ID ); ?>">Words</a></h2></figure>
                 </div>
 

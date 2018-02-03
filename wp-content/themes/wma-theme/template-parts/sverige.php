@@ -9,7 +9,7 @@ get_header();?>
 
         <div class="wma-text">
             <div class="artinfo left">
-                <img class="artinfo-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_sverige.jpg"/>
+                <img class="artinfo-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_sverige.jpg"/>
             </div> <!-- artinfo left -->
             <div class="artinfo right">
 
@@ -17,7 +17,9 @@ get_header();?>
                 motiv denna gång.</p>
 
                 <p>Gjord av färgat gips som jag formade och placerade på en canvas.</p>
-                21 x 15 cm.
+                <p>21 x 15 cm.</p>
+
+	            <?php get_template_part('/template-parts/socialshare', '/template-parts/socialshare.php'); ?>
 
             </div> <!-- artinfo right -->
         </div> <!-- wma-text -->

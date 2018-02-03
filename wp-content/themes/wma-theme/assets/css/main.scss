@@ -4,6 +4,7 @@
 * Description:   Theme for Warped Mind Art
 * Author:        Stefan Eriksson Roskvist
 * Text Domain:   wma-theme
+* Version:       1.0
 */
 
 @import "partials/mobilemenu";
@@ -22,13 +23,13 @@
   .artinfo-img { width: 100%; }
 }
 
-/* om skärmen är minst 400px på bredden används denna query */
+/* om skärmen blir mindre än 450px på bredden används denna query */
 
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 450px) {
   .wmalogo img { width: 100%; }
   .wma-mobilemenu { display: inline; }
   .wma-mainmenu { display: none; }
-
+  .slideShow { display: none; }
 }
 
 /* om skärmen är minst 600px på bredden används denna query */
@@ -212,7 +213,7 @@ h4.toptext {
 /* style för kontakt */
 
 .wma-contact {
-  width: 75%;
+  width: 100%;
   padding-left: 10px;
   padding-top: 15px;
   padding-bottom: 10px;
@@ -239,27 +240,25 @@ form {
     width: 100%;
     height: 100%;
   }
-
-  #input-submit-delete {
-    width: 50%;
-  }
 }
 
-.contact {
+.contact-left {
   float: left;
   width: 48%;
+  margin-right: 2%;
 }
 
-.right {
+.contact-right {
+  float: left;
   width: 50%;
-   }
-
-.left {
-  margin-right: 2%;
 }
 
 .submit-delete {
   width: 100%;
+
+  #input-submit-delete {
+    width: 50%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -272,12 +271,10 @@ form {
     }
   }
 
-  .contact {
+  .contact-left, .contact-right {
     width: 100%;
     float: none;
   }
-
-
 
   .wma-contact {
     margin: auto;
@@ -285,12 +282,21 @@ form {
   }
 }
 
+
+
 /* style för Om WMA */
 
 .om-wma-img {
   float: right;
   padding-left: 5px;
 }
+
+@media (max-width: 480px) {
+  .om-wma-img {
+    width: 100%;
+  }
+}
+
 
 /* style för tavelsidor */
 

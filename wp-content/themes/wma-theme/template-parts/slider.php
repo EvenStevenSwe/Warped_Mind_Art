@@ -8,8 +8,8 @@
 <body>
 
 <div class="slideShow">
-    <img class="placeHolder" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/img-slide1.jpg">
-    <div class="wmalogo"><img src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/wma-logo.png"></div>
+    <img class="placeHolder" src=<?php bloginfo('stylesheet_directory'); ?>/img/img-slide1.jpg">
+    <div class="wmalogo"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/wma-logo.png"></div>
     <div class="layer1"></div>
     <div class="layer2"></div>
     <div class="layer3"></div>

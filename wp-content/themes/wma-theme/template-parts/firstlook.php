@@ -13,19 +13,19 @@
 	      <h4 class="toptext">Urval från Galleriet</h4>
 		   <section class="firstlook">
 			<div class="urval">
-				<img class="firstlook-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_dreams.jpg"/>
+                <a href="<?php echo get_page_link( get_page_by_title( Dreams )->ID ); ?>"><img class="firstlook-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_dreams.jpg"/></a>
 				<h2 class="firstlook-title"><a href="<?php echo get_page_link( get_page_by_title( Dreams )->ID ); ?>">Dreams of Summer</a></h2>
 			</div>
 			<div class="urval">
-				<img class="firstlook-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_inferno.jpg"/>
+                <a href="<?php echo get_page_link( get_page_by_title( Inferno )->ID ); ?>"><img class="firstlook-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_inferno.jpg"/></a>
 				<h2 class="firstlook-title"><a href="<?php echo get_page_link( get_page_by_title( Inferno )->ID ); ?>">Inferno</a></h2>
 			</div>
 			<div class="urval">
-				<img class="firstlook-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_purple.jpg"/>
+                <a href="<?php echo get_page_link( get_page_by_title( Purple )->ID ); ?>"><img class="firstlook-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_purple.jpg"/></a>
 				<h2 class="firstlook-title"><a href="<?php echo get_page_link( get_page_by_title( Purple )->ID ); ?>">Purple Haze</a></h2>
 			</div>
 			<div class="urval">
-				<img class="firstlook-img" src="<?php echo $theme; ?>/wp-content/themes/wma-theme/img/gallery_sverige.jpg"/>
+                <a href="<?php echo get_page_link( get_page_by_title( Sverige )->ID ); ?>"><img class="firstlook-img" src="<?php bloginfo('stylesheet_directory'); ?>/img/gallery_sverige.jpg"/></a>
 				<h2 class="firstlook-title"><a href="<?php echo get_page_link( get_page_by_title( Sverige )->ID ); ?>">Sverige</a></h2>
 			</div>
 

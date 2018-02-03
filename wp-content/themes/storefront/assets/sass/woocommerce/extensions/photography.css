@@ -1,39 +1,61 @@
-/**
- * WooCommerce Photography
- */
-/**
- * Imports
- */
-.woocommerce ul.products li.product-type-photography,
-.woocommerce-page ul.products li.product-type-photography {
-  text-align: left; }
-  .woocommerce ul.products li.product-type-photography:before, .woocommerce ul.products li.product-type-photography:after,
-  .woocommerce-page ul.products li.product-type-photography:before,
-  .woocommerce-page ul.products li.product-type-photography:after {
-    content: "";
-    display: table; }
-  .woocommerce ul.products li.product-type-photography:after,
-  .woocommerce-page ul.products li.product-type-photography:after {
-    clear: both; }
-  .woocommerce ul.products li.product-type-photography .photography-image,
-  .woocommerce ul.products li.product-type-photography .photography-content,
-  .woocommerce-page ul.products li.product-type-photography .photography-image,
-  .woocommerce-page ul.products li.product-type-photography .photography-content {
-    float: none;
-    width: 100%; }
-  .woocommerce ul.products li.product-type-photography .photography-image img,
-  .woocommerce-page ul.products li.product-type-photography .photography-image img {
-    width: 100%; }
-  .woocommerce ul.products li.product-type-photography .photography-sku,
-  .woocommerce-page ul.products li.product-type-photography .photography-sku {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
-  .woocommerce ul.products li.product-type-photography .sku,
-  .woocommerce-page ul.products li.product-type-photography .sku {
-    font-weight: 600; }
+/*
+Error: File to import not found or unreadable: bourbon.
+        on line 8 of photography.scss
 
-.woocommerce .photography-products .tools,
-.woocommerce-page .photography-products .tools {
-  margin-bottom: 2.617924em;
-  background-color: rgba(0, 0, 0, 0.025);
-  padding: 1em 1em 1em 1.618em;
-  border: 0; }
+3:  *\/
+4: 
+5: /**
+6:  * Imports
+7:  *\/
+8: @import 'bourbon';
+9: @import '../../../../assets/sass/utils/variables';
+10: @import '../../../../assets/sass/utils/mixins';
+11: @import '../../../../node_modules/susy/sass/susy';
+12: @import '../../../../assets/sass/vendors/modular-scale';
+13: 
+
+Backtrace:
+photography.scss:8
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/import_node.rb:45:in `import'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `block in with_base'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `with_base'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin.rb:82:in `update_stylesheets'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/base.rb:52:in `parse'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/base.rb:19:in `parse!'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/sass-3.5.5/bin/scss:13:in `<top (required)>'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/bin/scss:23:in `load'
+C:/WebApplications/RailsInstaller/Ruby2.3.3/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: bourbon.\A         on line 8 of photography.scss\A \A 3:  */\A 4: \A 5: /**\A 6:  * Imports\A 7:  */\A 8: @import 'bourbon';\A 9: @import '../../../../assets/sass/utils/variables';\A 10: @import '../../../../assets/sass/utils/mixins';\A 11: @import '../../../../node_modules/susy/sass/susy';\A 12: @import '../../../../assets/sass/vendors/modular-scale';\A 13: "; }

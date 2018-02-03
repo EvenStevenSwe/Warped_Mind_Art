@@ -5,6 +5,7 @@
 * Description:   Theme for Warped Mind Art
 * Author:        Stefan Eriksson Roskvist
 * Text Domain:   wma-theme
+* Version:       1.0
 */
 .wma-mobilemenu .navbar-header {
   width: 100%;
@@ -79,7 +80,7 @@
   background-repeat: no-repeat; }
 
 .layer1 {
-  background-image: url("/wp-content/themes/wma-theme/img/img-slide1.jpg");
+  background-image: url("http://www.freakvent.com/warpedmindart/wp-content/themes/wma-theme/img/img-slide1.jpg");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -89,7 +90,7 @@
   background-repeat: no-repeat; }
 
 .layer2 {
-  background-image: url("/wp-content/themes/wma-theme/img/img-slide2.jpg");
+  background-image: url("http://www.freakvent.com/warpedmindart//wp-content/themes/wma-theme/img/img-slide2.jpg");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -100,7 +101,7 @@
   animation: layer2Anim 10s infinite; }
 
 .layer3 {
-  background-image: url("/wp-content/themes/wma-theme/img/img-slide3.jpg");
+  background-image: url("http://www.freakvent.com/warpedmindart//wp-content/themes/wma-theme/img/img-slide3.jpg");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -130,8 +131,8 @@
 
   .artinfo-img {
     width: 100%; } }
-/* om sk├ñrmen ├ñr minst 400px p├Ñ bredden anv├ñnds denna query */
-@media only screen and (min-width: 400px) {
+/* om sk├ñrmen blir mindre ├ñn 450px p├Ñ bredden anv├ñnds denna query */
+@media only screen and (max-width: 450px) {
   .wmalogo img {
     width: 100%; }
 
@@ -139,6 +140,9 @@
     display: inline; }
 
   .wma-mainmenu {
+    display: none; }
+
+  .slideShow {
     display: none; } }
 /* om sk├ñrmen ├ñr minst 600px p├Ñ bredden anv├ñnds denna query */
 @media only screen and (min-width: 600px) {
@@ -284,7 +288,7 @@ h4.toptext {
     width: calc(33.3333% - 2rem); } }
 /* style f├Âr kontakt */
 .wma-contact {
-  width: 75%;
+  width: 100%;
   padding-left: 10px;
   padding-top: 15px;
   padding-bottom: 10px;
@@ -306,21 +310,20 @@ form {
     color: #000000 !important;
     width: 100%;
     height: 100%; }
-  form #input-submit-delete {
-    width: 50%; }
 
-.contact {
+.contact-left {
   float: left;
-  width: 48%; }
-
-.right {
-  width: 50%; }
-
-.left {
+  width: 48%;
   margin-right: 2%; }
+
+.contact-right {
+  float: left;
+  width: 50%; }
 
 .submit-delete {
   width: 100%; }
+  .submit-delete #input-submit-delete {
+    width: 50%; }
 
 @media (max-width: 480px) {
   form {
@@ -328,7 +331,7 @@ form {
     form #mobilefield {
       width: 100%; }
 
-  .contact {
+  .contact-left, .contact-right {
     width: 100%;
     float: none; }
 
@@ -340,6 +343,9 @@ form {
   float: right;
   padding-left: 5px; }
 
+@media (max-width: 480px) {
+  .om-wma-img {
+    width: 100%; } }
 /* style f├Âr tavelsidor */
 .artinfo {
   width: 33%;
