@@ -111,6 +111,30 @@
   background-repeat: no-repeat;
   animation: layer3Anim 10s infinite; }
 
+/* style f├Âr WooCommerce */
+h1.page-title {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: #000000 !important; }
+
+p.woocommerce-result-count {
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000 !important; }
+
+select.orderby {
+  margin-bottom: 10px; }
+
+select.orderby input {
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  color: #000000 !important; }
+
+.woocommerce-ordering {
+  display: inline; }
+
 /* media queries */
 /* om sk├ñrmen blir mindre ├ñn 399px p├Ñ bredden anv├ñnds denna query */
 @media only screen and (max-width: 399px) {

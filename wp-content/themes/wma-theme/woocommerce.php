@@ -15,7 +15,6 @@ get_header(); ?>
     <div class="wma-textruta">
     <div class="wma-text">
         <h2>
-
 			<?php woocommerce_content();
 
 				do_action( 'storefront_page_before' );
@@ -28,9 +27,6 @@ get_header(); ?>
 				 * @hooked storefront_display_comments - 10
 				 */
 				do_action( 'storefront_page_after' ) ?>
-
-
-
         </h2>
     </div> <!-- wma-text -->
     </div> <!-- wma-textruta -->
