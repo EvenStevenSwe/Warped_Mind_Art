@@ -27,3 +27,49 @@ select.orderby input {
 .woocommerce-ordering {
   display: inline;
 }
+
+button.single_add_to_cart_button.alt {
+  margin-bottom: 10px;
+}
+
+li#tab-title-reviews.reviews_tab {
+  margin-bottom: 10px;
+}
+
+.product_meta {
+  margin-bottom: 10px;
+}
+
+.woocommerce-message {
+  border-top-color: black;
+}
+
+.woocommerce-message::before {
+  color: black;
+}
+
+.woocommerce a.remove {
+  display: inline;
+  font-size: 2.5em;
+}
+
+.woocommerce label {
+  font-weight: normal;
+}
+
+a.checkout-button.button.alt.wc-forward {
+  background-color: #0dc24b;
+}
+
+span.woocommerce-Price-amount.amount {
+  font-weight: normal;
+}
+
+input.button {
+  width: 50%;
+
+}
+
+.woocommerce input.button.alt {
+  background-color: #0dc24b;
+}
