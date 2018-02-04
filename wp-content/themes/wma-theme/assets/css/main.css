@@ -124,6 +124,13 @@ p.woocommerce-result-count {
   font-weight: normal;
   color: #000000 !important; }
 
+.u-column2.col-2 h2, .u-column1.col-1 h2 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 25px !important;
+  color: #000000 !important;
+  margin-top: 7px; }
+
 select.orderby {
   margin-bottom: 10px; }
 
