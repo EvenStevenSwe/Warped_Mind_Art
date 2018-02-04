@@ -80,3 +80,21 @@ input.button {
 .woocommerce input.button.alt {
   background-color: #0dc24b;
 }
+
+/* Flexbox on WooCommerce archive products */
+.woocommerce .products ul,
+.woocommerce ul.products {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.woocommerce ul.products li.product .button {
+  margin-top: auto;
+  display: table; 
+}
