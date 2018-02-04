@@ -4,15 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/konto.php" description="get_header();?&gt;&#10;&#10;&#9;&lt;div class=&quot;wma-textruta&quot;&gt;&#10;&#9;&lt;div..." line="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be3dff23-95a0-4d4d-a88f-c662581f5504" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/.sass-cache/37846f938c303b05c2dfddacf81b108f415dd250/_woocommerce.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/wma-theme/.sass-cache/37846f938c303b05c2dfddacf81b108f415dd250/_woocommerce.scssc" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/main.css.map" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/partials/_woocommerce.scss" afterPath="$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/partials/_woocommerce.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/wma-theme/style.css" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/terms.php" afterPath="$PROJECT_DIR$/wp-content/themes/wma-theme/template-parts/terms.php" />
-    </list>
+    <list default="true" id="be3dff23-95a0-4d4d-a88f-c662581f5504" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+              <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -36,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/partials/_woocommerce.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="798">
-              <caret line="98" column="18" lean-forward="false" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
+              <caret line="98" column="17" lean-forward="false" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -46,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/woocommerce.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1905">
-              <caret line="496" column="46" lean-forward="true" selection-start-line="496" selection-start-column="46" selection-end-line="496" selection-end-column="46" />
+              <caret line="496" column="46" lean-forward="false" selection-start-line="496" selection-start-column="46" selection-end-line="496" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -175,7 +167,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="311" />
     <option name="y" value="67" />
     <option name="width" value="1348" />
@@ -212,46 +204,6 @@
               <item name="Warped_Mind_Art" type="b2602c69:ProjectViewProjectNode" />
               <item name="Warped_Mind_Art" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Warped_Mind_Art" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Warped_Mind_Art" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Warped_Mind_Art" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Warped_Mind_Art" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="woocommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Warped_Mind_Art" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Warped_Mind_Art" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="woocommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Warped_Mind_Art" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Warped_Mind_Art" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="woocommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Warped_Mind_Art" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Warped_Mind_Art" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="woocommerce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="woocommerce.scss" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="Warped_Mind_Art" type="b2602c69:ProjectViewProjectNode" />
@@ -354,15 +306,15 @@
       <workItem from="1517300073228" duration="46116000" />
       <workItem from="1517582273509" duration="35615000" />
       <workItem from="1517704844691" duration="229000" />
-      <workItem from="1517734214686" duration="16660000" />
+      <workItem from="1517734214686" duration="17333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="319668000" />
+    <option name="totallyTimeSpent" value="320341000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1401919" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -524,13 +476,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/partials/_socialshare.scss" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/partials/_slider.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -731,7 +676,7 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+          <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -747,7 +692,15 @@
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/assets/css/woocommerce.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1905">
-          <caret line="496" column="46" lean-forward="true" selection-start-line="496" selection-start-column="46" selection-end-line="496" selection-end-column="46" />
+          <caret line="496" column="46" lean-forward="false" selection-start-line="496" selection-start-column="46" selection-end-line="496" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -755,7 +708,7 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wma-theme/assets/css/partials/_woocommerce.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
-          <caret line="98" column="18" lean-forward="false" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
+          <caret line="98" column="17" lean-forward="false" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
           <folding />
         </state>
       </provider>
